@@ -1,0 +1,13 @@
+title: FnP Music Upload Standard
+description: |
+  Picard rename script to follow FnP Music uploading standards
+author: NicFein
+license: No License
+version: '0.1'
+last_updated: 2026-01-01 15:26:54 UTC
+script_language_version: '1.1'
+script: |
+  $if2(%albumartist%,%artist%)/
+  %album% $if(%date%,\($year(%date%))) $if(%_bits_per_sample%,- %_bits_per_sample%bit )$if(%_sample_rate%,$div(%_sample_rate%,1000).$left($mod(%_sample_rate%,1000),1)kHz)/
+  $if(%discnumber%,$num(%discnumber%,1)-)$num(%tracknumber%,2) - %title%
+id: 7c2f288e-af1a-40dd-a42b-2638a0a7dbc5
