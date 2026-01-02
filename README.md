@@ -1,5 +1,8 @@
 # reimagined-octo
 
+> [!WARNING]
+> These scripts are all generated with AI, then edited manually by me to make sure they didn't nuke my library and did some things I wanted them to do. I know how to program, just was too lazy to dedicate time to scripts I knew AI could generate mostly without issue. Don't use AI, kids!
+
 Scripts I personally use to do all my processing. There is no script to do the upload directly to any platform due to me preferring to do the upload manually. Slows me down, but lets me spot mistakes easily.
 
 ## Picard Rename Script
